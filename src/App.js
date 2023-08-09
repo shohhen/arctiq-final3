@@ -75,7 +75,7 @@ function App() {
                   
               </nav>
               <div className='col-2 nav_button'>
-                  <button><NavLink className="callus" to={'tel::+998957009002'}>Call Us</NavLink> </button>
+                  <NavLink className="callus"  to={'tel::+998957009002'}><button  >Call Us</button> </NavLink>
               </div>
               <Sidebar pageWrapId={'page-wrap'} outerContainerId={'outer-container'} />
             </div>

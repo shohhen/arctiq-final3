@@ -39,7 +39,7 @@ export const Main = () => {
                     <div className="d-flex col-6 text-start flex-column hero_text">
                         <h3>Navigating the digital landscape for success</h3>
                         <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-                        <button><AnchorLink className='callus' href='#contact'>Book a consultation</AnchorLink></button>
+                        <button ><AnchorLink className='callus' href='#contact'>Book a consultation</AnchorLink></button>
                     </div>
                     <div className="d-flex col-6 hero_img">
                         <img src={images['Illustration1.svg']} alt="" />
@@ -177,11 +177,12 @@ export const Main = () => {
                     </div>
                 
                 <div className='process_cards'>
-                    <Accordion expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
+                    <Accordion className='accordion' expanded={expanded === 'panel1'} onChange={handleChange('panel1')}>
                         <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel1bh-content"
                         id="panel1bh-header"
+                        className='accordion_card'
                         >
                         <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
                             <h3 className='process_number'>01</h3>
@@ -190,18 +191,19 @@ export const Main = () => {
                             <p className='process_heading'> Research and strategy development</p>
                         </Typography>
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails className='details'>
                         <Typography>
                             <p className='process_text'>Conducting thorough research to understand client needs and target audience, devising a strategic plan to meet objectives and align with business goals.</p>
                            
                         </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
+                    <Accordion className='accordion' expanded={expanded === 'panel2'} onChange={handleChange('panel2')}>
                         <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel2bh-content"
                         id="panel2bh-header"
+                        className='accordion_card'
                         >
                         <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}> 
                         <h3 className='process_number'>02</h3></Typography>
@@ -209,18 +211,19 @@ export const Main = () => {
                             <p className='process_heading'> Implementation</p>
                         </Typography>
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails className='details'>
                         <Typography>
                             <p className='process_text'>Executing the web development process, including coding, designing, and content creation, to build the website or web application.</p>
                            
                         </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
+                    <Accordion className='accordion' expanded={expanded === 'panel3'} onChange={handleChange('panel3')}>
                         <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel3bh-content"
                         id="panel3bh-header"
+                        className='accordion_card'
                         >
                         <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
                             <h3 className='process_number'>03</h3>
@@ -229,18 +232,19 @@ export const Main = () => {
                             <p className='process_heading'> Monitoring and optimization</p>
                         </Typography>
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails className='details'>
                         <Typography>
                             <p className='process_text'>Constantly analyzing website performance, user behavior, and key metrics to identify areas for improvement and optimization.</p>
                            
                         </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
+                    <Accordion className='accordion' expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
                         <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel3bh-content"
                         id="panel3bh-header"
+                        className='accordion_card'
                         >
                         <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
                             <h3 className='process_number'>04</h3>
@@ -249,18 +253,19 @@ export const Main = () => {
                             <p className='process_heading'> Reporting and communication</p>
                         </Typography>
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails className='details'> 
                         <Typography>
                             <p className='process_text'>Regularly providing detailed reports to stakeholders, communicating progress, results, and suggesting adjustments as needed.</p>
                            
                         </Typography>
                         </AccordionDetails>
                     </Accordion>
-                    <Accordion expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
+                    <Accordion className='accordion' expanded={expanded === 'panel5'} onChange={handleChange('panel5')}>
                         <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel3bh-content"
                         id="panel3bh-header"
+                        className='accordion_card'
                         >
                         <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
                             <h3 className='process_number' >05</h3>
@@ -269,7 +274,7 @@ export const Main = () => {
                             <p className='process_heading'> Continual improvement</p>
                         </Typography>
                         </AccordionSummary>
-                        <AccordionDetails>
+                        <AccordionDetails className='details'>
                         <Typography>
                             <p className='process_text'>Emphasizing ongoing enhancements and updates to keep the website or web application relevant, user-friendly, and aligned with the latest trends and technologies.</p>
                            

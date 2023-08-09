@@ -92,7 +92,7 @@ button {
   padding: 7px 0;
   border-radius: 16px;
   background-color: #fff;
-  border-color: #191a23;
+  border-color: #191a23 !important;
   transition: .3s;
 }
 
