@@ -43,9 +43,11 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `npm install express cors nodemailer`
 ### `npm install @mui/material @emotion/react @emotion/styled`
 ### `npm install @mui/material @mui/styled-engine-sc styled-components`
+### `npm install @mui/icons-material`
 ### `npm i --save @fortawesome/fontawesome-svg-core`
 ### `npm i --save @fortawesome/free-solid-svg-icons`
 ### `npm i --save @fortawesome/free-regular-svg-icons`
+### `npm i @fortawesome/free-brands-svg-icons`
 
 ### `npm install babel-plugin-macros`
 
@@ -55,6 +57,18 @@ Next, you'll need to configure the babel plugins. Add the following to your babe
     plugins: ['macros'],
   }
 }`
+
+Then, create a babel-plugin-macros.config.js and add the fontawesome-svg-core settings. You can set the license to either free or pro depending on the icons you are planning to use. (Learn more about setting babel macros)
+
+module.exports = {
+  'fontawesome-svg-core': {
+    'license': 'free'
+  }
+}
+
+### `npm i bootstrap`
+### `npm i react-anchor-link-smooth-scroll`
+### `npm i react-router-dom`
 
 ## Learn More
 
