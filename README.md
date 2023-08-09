@@ -39,6 +39,23 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
+###Used frameworks
+### `npm install express cors nodemailer`
+### `npm install @mui/material @emotion/react @emotion/styled`
+### `npm install @mui/material @mui/styled-engine-sc styled-components`
+### `npm i --save @fortawesome/fontawesome-svg-core`
+### `npm i --save @fortawesome/free-solid-svg-icons`
+### `npm i --save @fortawesome/free-regular-svg-icons`
+
+### `npm install babel-plugin-macros`
+
+Next, you'll need to configure the babel plugins. Add the following to your babel.config.js file:
+`module.exports = function (api) {
+  return {
+    plugins: ['macros'],
+  }
+}`
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
