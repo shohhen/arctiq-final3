@@ -55,6 +55,10 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 ### `npm i react-anchor-link-smooth-scroll`
 ### `npm i react-router-dom`
 
+## To run server.js
+
+### `node server.js`
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
