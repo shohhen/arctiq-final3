@@ -49,7 +49,7 @@ import DialogTitle from "@mui/material/DialogTitle";
                   right: "10px",
                   cursor: "pointer",
                   fontSize: "24px",
-                  fontFamily: "Space Grotesk",
+                  fontFamily: "Mukta",
                   fontStyle: "normal"
                 }}
               >
@@ -57,8 +57,8 @@ import DialogTitle from "@mui/material/DialogTitle";
               </i>
             </ModalDismissButton>
           </div>
-          <DialogTitle style={{fontFamily: "Space Grotesk",}}> {title} </DialogTitle>
-          <p style={{fontFamily: "Space Grotesk"}}>{children}</p>
+          <DialogTitle style={{fontFamily: "Mukta",}}> {title} </DialogTitle>
+          <p style={{fontFamily: "Mukta"}}>{children}</p>
         </div>
       </ModalContentsBase>
     );

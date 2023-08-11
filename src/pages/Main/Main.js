@@ -12,6 +12,11 @@ import './main.css'
 
 
 
+/**
+ * Renders the main content of a webpage.
+ *
+ * @returns {JSX.Element} The main content of the webpage.
+ */
 export const Main = () => {
     function importAll(r) {
         let images = {};
@@ -21,7 +26,7 @@ export const Main = () => {
        const images = importAll(require.context('../../img', false, /\.(png|jpe?g|svg)$/))
 
 
-        const [expanded, setExpanded] = React.useState(false);
+        const [expanded, setExpanded] = React.useState([false, false, false, false, false]);
 
         const handleChange = (panel) => (event, isExpanded) => {
           setExpanded(isExpanded ? panel : false);
@@ -91,7 +96,7 @@ export const Main = () => {
                                     <NavLink>{<img src={images['Icon.svg']} alt="" />} Learn More </NavLink>
                                 </div>{
                                 <div className='card_img'>
-                                    <img  src={images['bwink_edu_01_single_02.jpg']} alt="" />
+                                    <img  src={images['bwink_ppl_01_single_01.jpg']} alt="" />
                                 </div>}
                                 </div>
                             </ModalOpenButton>
@@ -107,7 +112,7 @@ export const Main = () => {
                                     <NavLink>{<img src={images['Icon.svg']} alt="" />} Learn More </NavLink>
                                 </div>{
                                 <div className='card_img'>
-                                    <img  src={images['bwink_edu_01_single_02.jpg']} alt="" />
+                                    <img  src={images['bwink_msc_05_single_03.jpg']} alt="" />
                                 </div>}
                                 </div>
                             </ModalOpenButton>
@@ -123,7 +128,7 @@ export const Main = () => {
                                     <NavLink>{<img src={images['Icon.svg']} alt="" />} Learn More </NavLink>
                                 </div>{
                                 <div className='card_img'>
-                                    <img  src={images['bwink_edu_01_single_02.jpg']} alt="" />
+                                    <img  src={images['bwink_msc_09_single_05.jpg']} alt="" />
                                 </div>}
                                 </div>
                             </ModalOpenButton>
@@ -139,7 +144,7 @@ export const Main = () => {
                                     <NavLink>{<img src={images['Icon.svg']} alt="" />} Learn More </NavLink>
                                 </div>{
                                 <div className='card_img'>
-                                    <img  src={images['bwink_edu_01_single_02.jpg']} alt="" />
+                                    <img  src={images['bwink_med_10_single_03.jpg']} alt="" />
                                 </div>}
                                 </div>
                             </ModalOpenButton>

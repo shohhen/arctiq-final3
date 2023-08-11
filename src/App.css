@@ -3,7 +3,7 @@
 .App {
   
   text-align: center;
-  font-family: 'Space Grotesk';
+  font-family: 'Mukta';
  
   
 }
@@ -64,13 +64,14 @@
 }
 
 .img img {
-  width: 70%;
+  width: 100%;
 }
 
 a {
+  font-size: 20px;
   color: #000;
   text-decoration: none;
-  font-family: "Space Grotesk";
+  font-family: "Mukta";
   font-weight: 400;
   border-radius: 8px;
   padding: 8px;
@@ -82,7 +83,7 @@ a {
 
 
 /* a:hover {
-  border: 1px solid #929374;
+  border: 1px solid #a8ae9b;
   
   
 } */
@@ -97,8 +98,8 @@ button {
 }
 
 button:hover {
-   background-color: #929374;
-   color: #fff;
+   background-color: #a8ae9b;
+   color: #191a23 !important;
 }
 
 .callus {
@@ -128,7 +129,7 @@ button:hover {
 }
 
 .footer_img img {
-  width: 90%;
+  width: 30%;
 }
 
 .privacy {
@@ -159,7 +160,7 @@ button:hover {
 
 .icon:hover {
   border: none;
-  background-color: #929374 !important;
+  background-color: #a8ae9b !important;
   color: #fff;
 }
 

@@ -9,7 +9,7 @@
 }
 
 .hero_text h3 {
-    font-size: 40px;
+    font-size: 60px;
     font-weight: 500;
     width: 90%;
 }
@@ -25,6 +25,7 @@ img {
 .hero_text p {
     margin: 48px 0px 24px 0 !important;
     width: 90%;
+    font-size: 20px;
 }
 
 .hero_text button {
@@ -39,7 +40,12 @@ img {
 }
 
 .hero_text button:hover {
-    background-color: #929374;
+    background-color: #a8ae9b;
+    
+}
+
+.hero_text button a:hover {
+    color: #191A23 !important;
 }
 
 .logos_block {
@@ -81,8 +87,7 @@ img {
     margin-right: 48px;
     padding: 0 7px;
     border-radius: 7px;
-    background-color: #929374;
-    color: #191A23;
+    background-color: #a8ae9b;
     font-size: 40px;
 }
 
@@ -98,7 +103,7 @@ img {
     margin-top: 64px;
     border-radius: 45px !important;
     box-shadow: 0px 0px 1px 1px #191A23 !important;
-    background-color: #929374 !important;
+    background-color: #a8ae9b !important;
     border: 1px solid #191A23 !important;
     transition: .3s;
     cursor: pointer;
@@ -139,7 +144,6 @@ img {
 .card_text span {
     border-radius: 7px;
     padding: 0 7px;
-    background-color: #929374;
     width: fit-content;
 }
 
@@ -161,11 +165,19 @@ img {
 
 .modal_contents div >div{
     border-radius: 20px;
-    background-color: #191A23;
-    color: #F3F3F3;
+    background-color: #f3f3f3;
+    color: #191A23;
 
 }
 
+.modal_contents div >div >h2 {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.modal_contents div >div >i {
+    padding: 20px;
+}
 
 .process_block {
     padding: 64px 0;
@@ -174,19 +186,19 @@ img {
 
 
 .process_number {
-    font-family: 'Space Grotesk';
+    font-family: 'Mukta';
     margin: 0;
 }
 
 .process_heading {
-    font-family: 'Space Grotesk';
+    font-family: 'Mukta';
     font-weight: 500 !important;
     margin-bottom: 0 !important;
 }
 
 .process_text {
     text-align: start;
-    font-family: 'Space Grotesk';
+    font-family: 'Mukta';
 }
 
 /* .css-hz1bth-MuiDialog-container {
@@ -216,7 +228,7 @@ img {
 
 .accordion.Mui-expanded {
     border-radius: 45px !important;
-    background-color: #929374 !important;
+    background-color: #a8ae9b !important;
     transition: .3s;
 }
 
@@ -264,7 +276,7 @@ img {
 
 .css-1elwnq4-MuiPaper-root-MuiAccordion-root.Mui-expanded {
     margin-bottom: 30px !important;
-    background-color: #929374 !important;
+    background-color: #a8ae9b !important;
     box-shadow: 0px 0px 1px 1px #191A23 !important;
 }
 
@@ -321,7 +333,7 @@ form input, textarea {
 }
 
 form input:focus {
-    border: 1px solid #929374 !important;
+    border: 1px solid #a8ae9b !important;
 }
 
 form textarea {
@@ -331,7 +343,7 @@ form textarea {
 }
 
 form textarea:focus {
-    border: 1px solid #929374 !important;
+    border: 1px solid #a8ae9b !important;
 }
 
 form input {

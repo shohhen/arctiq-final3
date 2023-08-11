@@ -92,7 +92,7 @@ function App() {
       </div>
       <footer className='footer'>
         <div className="container d-flex flex-column align-items-center justify-content-around footer_block">
-            <div className='footer_img'><img onClick={handleScrollToTop} src={ images['logo 1.svg'] } alt=""/></div>
+            <div className='footer_img'><img onClick={handleScrollToTop} src={ images['logo-1.png'] } alt=""/></div>
             <div className='privacy'><p>© 2023 Arctiq. All Rights Reserved.</p> </div>
             <div className='social_media'>
             <NavLink className='icon' to={''}><FontAwesomeIcon  icon={icon({name: 'instagram', style: 'brands'})} /></NavLink> 

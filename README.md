@@ -57,7 +57,7 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 
 ## To run server.js
 
-### `node server.js`
+### `node server.js
 
 ## Learn More
 
