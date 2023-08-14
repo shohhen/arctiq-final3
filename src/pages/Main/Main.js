@@ -43,7 +43,7 @@ export const Main = () => {
                 <div className="d-flex hero_block justify-content-between align-items-center">
                     <div className="d-flex col-6 text-start flex-column hero_text">
                         <h3>Navigating the digital landscape for success</h3>
-                        <p>Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
+                        <p>Our digital marketing agency helps businesses grow and succeed through a range of services including SEO, PPC, social media marketing, and content creation.</p>
                         <button ><AnchorLink className='callus' href='#contact'>Book a consultation</AnchorLink></button>
                     </div>
                     <div className="d-flex col-6 hero_img">
@@ -189,16 +189,16 @@ export const Main = () => {
                         id="panel1bh-header"
                         className='accordion_card'
                         >
-                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
+                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0,  }}>
                             <h3 className='process_number'>01</h3>
                         </Typography>
-                        <Typography className='d-flex align-items-center'>
-                            <p className='process_heading'> Research and strategy development</p>
+                        <Typography className='d-flex align-items-center process_heading'>
+                            <p className=''> Research and strategy development</p>
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails className='details'>
-                        <Typography>
-                            <p className='process_text'>Conducting thorough research to understand client needs and target audience, devising a strategic plan to meet objectives and align with business goals.</p>
+                        <Typography className='process_text'>
+                            <p >Conducting thorough research to understand client needs and target audience, devising a strategic plan to meet objectives and align with business goals.</p>
                            
                         </Typography>
                         </AccordionDetails>
@@ -210,10 +210,10 @@ export const Main = () => {
                         id="panel2bh-header"
                         className='accordion_card'
                         >
-                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}> 
+                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0,  }}> 
                         <h3 className='process_number'>02</h3></Typography>
-                        <Typography className='d-flex align-items-center'>
-                            <p className='process_heading'> Implementation</p>
+                        <Typography className='d-flex align-items-center process_heading'>
+                            <p > Implementation</p>
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails className='details'>
@@ -230,11 +230,11 @@ export const Main = () => {
                         id="panel3bh-header"
                         className='accordion_card'
                         >
-                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
+                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0,  }}>
                             <h3 className='process_number'>03</h3>
                         </Typography>
-                        <Typography className='d-flex align-items-center'>
-                            <p className='process_heading'> Monitoring and optimization</p>
+                        <Typography className='d-flex align-items-center process_heading'>
+                            <p > Monitoring and optimization</p>
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails className='details'>
@@ -251,11 +251,11 @@ export const Main = () => {
                         id="panel3bh-header"
                         className='accordion_card'
                         >
-                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
+                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0,  }}>
                             <h3 className='process_number'>04</h3>
                         </Typography>
-                        <Typography className='d-flex align-items-center'>
-                            <p className='process_heading'> Reporting and communication</p>
+                        <Typography className='d-flex align-items-center process_heading'>
+                            <p > Reporting and communication</p>
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails className='details'> 
@@ -272,11 +272,11 @@ export const Main = () => {
                         id="panel3bh-header"
                         className='accordion_card'
                         >
-                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0, marginRight: '25px' }}>
+                        <Typography className='d-flex align-items-center' sx={{ width: 'object-fit', flexShrink: 0,  }}>
                             <h3 className='process_number' >05</h3>
                         </Typography>
-                        <Typography className='d-flex align-items-center'>
-                            <p className='process_heading'> Continual improvement</p>
+                        <Typography className='d-flex align-items-center process_heading'>
+                            <p > Continual improvement</p>
                         </Typography>
                         </AccordionSummary>
                         <AccordionDetails className='details'>

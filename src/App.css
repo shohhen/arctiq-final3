@@ -69,9 +69,9 @@
 
 a {
   font-size: 20px;
-  color: #000;
-  text-decoration: none;
-  font-family: "Mukta";
+  color: #000 !important;
+  text-decoration: none !important;
+  font-family: "Mukta" !important;
   font-weight: 400;
   border-radius: 8px;
   padding: 8px;
@@ -91,7 +91,7 @@ a {
 button {
   width: 100%;
   padding: 7px 0;
-  border-radius: 16px;
+  border-radius: 16px !important;
   background-color: #fff;
   border-color: #191a23 !important;
   transition: .3s;

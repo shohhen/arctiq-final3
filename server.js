@@ -9,7 +9,6 @@ app.use(express.json());
 app.use("/", router);
 app.listen(3001, () => console.log("Server Running"));
 
-
 const contactEmail = nodemailer.createTransport({
   host: 'smtp.ethereal.email',
   port: 587,
@@ -28,22 +27,22 @@ contactEmail.verify((error) => {
 });
 
 router.post("/", (req, res) => {
-  const name = req.body.name;
-  const email = req.body.email;
-  const message = req.body.message; 
+  const { name, number, message } = req.body;
   const mail = {
     from: name,
     to: "mckayla.kuphal72@ethereal.email",
     subject: "Contact Form Submission",
     html: `<p>Name: ${name}</p>
-           <p>Email: ${email}</p>
-           <p>Message: ${message}</p>`,
+           <p>Number: ${number}</p>
+           <p>Message: ${message}</p>`
   };
+
   contactEmail.sendMail(mail, (error) => {
     if (error) {
       res.json({ status: "ERROR" });
     } else {
       res.json({ status: "Message Sent" });
-    }
+    } 
   });
-});
+});  
+  
