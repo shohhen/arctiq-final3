@@ -29,7 +29,7 @@ function App() {
   useEffect(() => {
     setTimeout(() => {
       setLoading(false);
-    }, 2000);
+    }, 4000);
   }, []);
 
   const handleScrollToTop = () => {
@@ -53,12 +53,13 @@ function App() {
       <Loader visible={loading} />
 
       <div className={`App ${loading ? 'hidden' : 'visible'}`}>
+        <h1>ARCTIQ</h1>
         <header id="header" className={`header ${scrolled ? 'scrolled' : ''}`}>
           <div className="container d-flex flex-row align-items-center justify-content-between">
             <div className="img col-2 d-flex justify-content-between">
               <img onClick={handleScrollToTop} src={images['logo-1.png']} alt="" />
             </div>
-            <NavLink className="col-8 d-flex justify-content-center nav">
+            <div className="col-8 justify-content-center nav">
               <AnchorLink className="col-3" href="#services">
                 Services
               </AnchorLink>
@@ -68,9 +69,9 @@ function App() {
               <AnchorLink className="col-3" href="#contact">
                 Contact Us
               </AnchorLink>
-            </NavLink>
+            </div>
             <div className="col-2 nav_button">
-              <NavLink className="callus" to={"tel:+998957009002"}>
+              <NavLink className="callus" to="tel:+998957009002">
                 <button>Call Us</button>
               </NavLink>
             </div>
@@ -91,16 +92,16 @@ function App() {
               <p>© 2023 Arctiq. All Rights Reserved.</p>
             </div>
             <div className="social_media">
-              <NavLink className="icon" to={"#"}>
+              <NavLink className="icon" href="#">
                 <FontAwesomeIcon icon={icon({ name: 'instagram', style: 'brands' })} />
               </NavLink>
-              <NavLink className="icon" to={"#"}>
+              <NavLink className="icon" href="#">
                 <FontAwesomeIcon icon={icon({ name: 'telegram', style: 'brands' })} />
               </NavLink>
-              <NavLink className="icon" to={"#"}>
+              <NavLink className="icon" href="#">
                 <FontAwesomeIcon icon={icon({ name: 'twitter', style: 'brands' })} />
               </NavLink>
-              <NavLink className="icon" to={"#"}>
+              <NavLink className="icon" href="#">
                 <FontAwesomeIcon icon={icon({ name: 'linkedin', style: 'brands' })} />
               </NavLink>
             </div>

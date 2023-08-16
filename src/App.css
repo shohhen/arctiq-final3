@@ -1,17 +1,20 @@
-
+h1 {
+  
+}
 
 .App {
   
   text-align: center;
   font-family: 'Mukta';
- 
-  
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out !important;
 }
 
 
 .App.visible {
   position: relative;
   z-index: 999 !important;
+  opacity: 1;
 }
 
 .App-logo {

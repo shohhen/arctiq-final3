@@ -109,9 +109,29 @@ img {
     cursor: pointer;
 }
 
+.card_img {
+    transition: .3s !important;
+}
+
 .card:hover {
     box-shadow: none !important;
+    transition: .3s !important;
 }
+
+/* .card:hover .card_img {
+    -webkit-animation: rotation 1s infinite;
+    animation: rotation 1s infinite;
+    transition: .3s;
+}
+
+@keyframes rotation {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+} */
 
 .card:nth-of-type(odd) {
     margin-right: 50px;
@@ -209,15 +229,6 @@ img {
     font-family: 'Mukta';
 }
 
-/* .css-hz1bth-MuiDialog-container {
-    z-index: 9999;
-}
-
-
-
-.css-o4b71y-MuiAccordionSummary-content.Mui-expanded {
-    margin: 0 !important;
-} */
 
 .process_cards > div {
     margin-bottom: 30px;
@@ -260,12 +271,16 @@ img {
 
 .contact_block {
     width: 100%;
-    background-image: url(../../img/Illustration.svg);
+    position: relative;
+    background-image: url(../../img/contact-us.svg);
     background-repeat: no-repeat;
     background-position: right;
+    background-size: 50%;
     background-color: #F3F3F3;
     border-radius: 45px;
+    
 }
+
 
 .contact_form {
     width: 100%;

@@ -1,6 +1,6 @@
 /* Position and sizing of burger button */
 .bm-burger-button {
-   
+
     flex-direction: column;
     width: 20% !important;
     /* position: fixed; */
@@ -58,8 +58,16 @@
   
   /* Wrapper for item list */
   .bm-item-list {
-    color: #b8b7ad;
+    color: #b8b7ad !important;
     padding: 0.8em;
+  }
+
+  .bm-item-list a {
+    color: #ffffff !important;
+  }
+
+  .bm-item-list button a {
+    color: #191a23 !important;
   }
   
   /* Individual item */
@@ -89,9 +97,6 @@
     display: none !important;
   }
 
-  #react-burger-menu-btn {
-    
-  }
   /* Individual item */
 
   @media (max-width: 768px) {

@@ -12,7 +12,7 @@ const ContactForm = () => {
     const { name, number, message } = formData;
 
     try {
-      const response = await fetch("http://localhost:3001/", {
+      const response = await fetch("https://arctiq.uz:3001/", {
         method: "POST",
         headers: {
           "Content-Type": "application/json;charset=utf-8",
