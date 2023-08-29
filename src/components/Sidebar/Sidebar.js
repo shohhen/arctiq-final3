@@ -24,20 +24,20 @@ export default function Default() {
 
   return (
     <Menu right>
-      <AnchorLink className="col-3" href="#services">
+      <AnchorLink className="sidebarlink" href="#services">
         Services
       </AnchorLink>
-      <AnchorLink className="col-3" href="#process">
+      <AnchorLink className="sidebarlink" href="#process">
         Process
       </AnchorLink>
-      <AnchorLink className="col-3" href="#contact">
+      <AnchorLink className="sidebarlink" href="#contact">
         Contact Us
       </AnchorLink>
-      <button>
-        <NavLink className="callus" to="tel:+998957009002">
+      <NavLink className="callus sidebarlink" to="tel:+998957009002">
+        <button>
           Call Us
-        </NavLink>
-      </button>
+        </button>
+      </NavLink>
     </Menu>
   );
 }

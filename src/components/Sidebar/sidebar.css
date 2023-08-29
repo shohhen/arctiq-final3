@@ -1,4 +1,9 @@
 /* Position and sizing of burger button */
+.sidebarlink {
+  width: 100% !important;
+  text-align: center !important;
+}
+
 .bm-burger-button {
 
     flex-direction: column;

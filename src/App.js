@@ -53,7 +53,7 @@ function App() {
       <Loader visible={loading} />
 
       <div className={`App ${loading ? 'hidden' : 'visible'}`}>
-        <h1>ARCTIQ</h1>
+        <h1 style={{color: 'transparent'}}>ARCTIQ</h1>
         <header id="header" className={`header ${scrolled ? 'scrolled' : ''}`}>
           <div className="container d-flex flex-row align-items-center justify-content-between">
             <div className="img col-2 d-flex justify-content-between">
@@ -88,6 +88,7 @@ function App() {
             <div className="footer_img">
               <img onClick={handleScrollToTop} src={images['logo-1.png']} alt="" />
             </div>
+            <NavLink style={{color: '#fff'}}> +998957009002 </NavLink>
             <div className="privacy">
               <p>© 2023 Arctiq. All Rights Reserved.</p>
             </div>

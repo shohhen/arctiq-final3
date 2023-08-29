@@ -7,14 +7,14 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 app.use("/", router);
-app.listen(3001, () => console.log("Server Running"));
+app.listen(6000, () => console.log("Server Running"));
 
 const contactEmail = nodemailer.createTransport({
-  host: 'smtp.ethereal.email',
-  port: 587,
+  host: 'mail.arctiq.uz',
+  port: 465,
   auth: {
-    user: "mckayla.kuphal72@ethereal.email",
-    pass: "bPCAWJr3byPWpgxUJE",
+    user: "shohhen@arctiq.uz",
+    pass: "Shoh_15291212505",
   },
 });
 
@@ -30,7 +30,7 @@ router.post("/", (req, res) => {
   const { name, number, message } = req.body;
   const mail = {
     from: name,
-    to: "mckayla.kuphal72@ethereal.email",
+    to: "shohhen@arctiq.uz",
     subject: "Contact Form Submission",
     html: `<p>Name: ${name}</p>
            <p>Number: ${number}</p>

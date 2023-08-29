@@ -53,15 +53,7 @@ export const Main = () => {
             </section>
             {/* HERO SECTION END */}
 
-            {/* LOGOS SECTION */}
-            <section className="container logos_section">
-                <div className="d-flex logos_block align-items-center justify-content-around"> 
-                    <NavLink to={'https://hiltontrade.uz/index.html'} target='_blank'><img className='col-6' src={images ['logo.svg']} alt="" /></NavLink>                
-                    <NavLink to={'https://maximauzb.uz'} target='_blank'><img className='col-6' src={images ['logo2.png']} alt=""/></NavLink>
-                </div>
-               
-            </section>
-            {/* LOGOS SECTION END */}
+            
 
             {/* SERVICES SECTION */}
             <section className="container" id="services">
@@ -290,6 +282,23 @@ export const Main = () => {
                 </div>
             </section>
             {/* WORKING PROCESS SECTION END */}
+
+            {/* LOGOS SECTION */}
+            <section className="container logos_section">
+                <div className="d-flex logos_block  flex-column"> 
+                    <div className="heading_text ">
+                        <h2>Our Projects</h2>
+                        <p>Meet the projects we have done</p>
+                    </div>
+                    <div className='d-flex'>
+                        <NavLink to={'https://hiltontrade.uz/index.html'} target='_blank'><img className='col-6' src={images ['logo.svg']} alt="" /></NavLink>                
+                        <NavLink to={'https://maximauzb.uz'} target='_blank'><img className='col-6' src={images ['logo2.png']} alt=""/></NavLink>
+                    </div>
+                    
+                </div>
+               
+            </section>
+            {/* LOGOS SECTION END */}
 
             {/* TEAM SECTION */}
             {/* <section className="container">
