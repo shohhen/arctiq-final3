@@ -284,7 +284,7 @@ export const Main = () => {
             {/* WORKING PROCESS SECTION END */}
 
             {/* LOGOS SECTION */}
-            <section className="container logos_section">
+            {/* <section className="container logos_section">
                 <div className="d-flex logos_block  flex-column"> 
                     <div className="heading_text ">
                         <h2>Our Projects</h2>
@@ -297,7 +297,7 @@ export const Main = () => {
                     
                 </div>
                
-            </section>
+            </section> */}
             {/* LOGOS SECTION END */}
 
             {/* TEAM SECTION */}

@@ -88,11 +88,11 @@ function App() {
             <div className="footer_img">
               <img onClick={handleScrollToTop} src={images['logo-1.png']} alt="" />
             </div>
-            <NavLink style={{color: '#fff'}}> +998957009002 </NavLink>
+            <NavLink style={{color: '#fff !important'}}> +998957009002 </NavLink>
             <div className="privacy">
               <p>© 2023 Arctiq. All Rights Reserved.</p>
             </div>
-            <div className="social_media">
+            {/* <div className="social_media">
               <NavLink className="icon" href="#">
                 <FontAwesomeIcon icon={icon({ name: 'instagram', style: 'brands' })} />
               </NavLink>
@@ -105,7 +105,7 @@ function App() {
               <NavLink className="icon" href="#">
                 <FontAwesomeIcon icon={icon({ name: 'linkedin', style: 'brands' })} />
               </NavLink>
-            </div>
+            </div> */}
           </div>
         </footer>
       </div>
